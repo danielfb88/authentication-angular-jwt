@@ -1,0 +1,10 @@
+Autenticação com jwt para Angular 5.
+
+A aplicação enviará uma requisição POST para o seguinte endpoint: /api/auth
+O corpo da requisição será:
+{
+	"email":"daniel@wexinc.com.br",
+	"password":"123"
+}
+
+Utilize o arquivo proxy.config.json para definir informações do servidor.
